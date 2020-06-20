@@ -1,6 +1,6 @@
 import os
 
-from setuptools import setup
+from setuptools import setup, find_packages
 
 
 def read_file(filename):
@@ -24,7 +24,7 @@ setup(
     license='MIT',
     author='Kirill Vercetti',
     author_email='office@kyzima-spb.com',
-    py_modules=['jinja_to_another'],
+    packages=find_packages(),
     include_package_data=True,
     entry_points={
         'console_scripts': [

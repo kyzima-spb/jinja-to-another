@@ -13,7 +13,7 @@ import types
 from jinja2 import Environment, FileSystemLoader, select_autoescape, Markup
 from jinja2 import nodes
 
-from .decorators import return_namedtuple
+from adminlte_base.decorators import return_namedtuple
 
 
 logger = logging.getLogger(__name__)
